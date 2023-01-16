@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img6{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(16, 114, 200);
+}
+  
+.span1{
+    font-weight:400px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+
+/* achivement */
+.h22{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: tomato;
+}
+.member{
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.member:hover{
+    background-color:#f6fbfb;
+    box-shadow: 2px 2px 2px rgb(116, 80, 80);
+}
+.member-info h4{
+    color: tomato;
+}
+
+.teampic{
+width: 100%;
+margin: 0 auto;
+}
+
+
+.span2{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.span2::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height:1.16px;
+    background: black;
+    bottom: 0;
+    left:0;
+}
+
+.member p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.social i{
+    color: tomato;
+    font-size: 16px;
+    margin: 0 2px;
+}
+.social a:hover{
+    text-decoration: none;
+}
+.social a i:hover{
+    background: tomato;
+    color: white;
+}
+
+.social a{
+    margin-left: 8px;
+    background: #eff2f8;
+}
+
+/* contact us start */
+.team h3{
+    font-size: 24px;
+    color:#333;
+    font-weight: bold;
+}
+.team i{
+    font-size: 26px;
+    color:#555;
+}
+.team p{
+    font-weight: 500;
+}
+
+.team .card{
+    width: auto;
+    border-radius: 0;
+    box-shadow: 2px 2px 10px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3 ease-in;
+    -moz-transition:all 0.3s ease-in;
+}
+
+.team .card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+.team .card:hover h3{
+    color:#fff;
+}
+.team .card:hover i{
+    color:#fff;
+}
+/* about start */
+#img4{
+    width: 55%;
+    height: 200px;
+    transition: 2s;
+}
+#img4:hover{
+    
+  transform:scale(1.4,1.4); 
+    /* transform: translate(123px,123px); */
+}
+
+/* footer start */
+footer{
+    background-color: black;
+}
+.cmt{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.submite{
+    width:40%;
+}
+.cancel{
+    width:35%; 
+}
+.leave{
+    width: 65%;
+}
+.ok h5{
+    text-shadow: 2px 1px 2px tomato;
+}
+.ok h3{
+    text-shadow: 2px 2px 2px tomato;
+}
+.ok a:hover{
+    text-decoration: none;
+}
+.ok h5:hover{
+    text-shadow: 5px 5px 5px white;
+}
+
+
+
+
+
